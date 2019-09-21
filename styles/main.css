@@ -784,7 +784,6 @@ a:hover {
   border: 2px solid #000;
 }
 .tags .tag .tag-name {
-  font-size: 1rem;
   color: #999;
   margin-bottom: 8px;
   position: relative;
@@ -799,10 +798,11 @@ a:hover {
 }
 .tags .tag .icon {
   position: absolute;
-  left: 0;
-  top: -12px;
+  right: 0;
+  bottom: -12px;
   font-size: 80px;
   color: #efefef91;
+  transform: rotateY(180deg);
 }
 @media (max-width: 940px) {
   .tags {
