@@ -613,7 +613,7 @@ td {
 }
 .main {
   min-height: 200px;
-  padding: 40px 0;
+  padding: 64px 0;
 }
 .items {
   display: grid;
