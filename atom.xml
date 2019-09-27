@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://gridea-theme-tech.netlify.com</id>
-    <title>Gridea</title>
-    <updated>2019-09-21T02:08:01.085Z</updated>
+    <id>https://gridea-theme-line.netlify.com</id>
+    <title>Gridea Theme Line</title>
+    <updated>2019-09-27T17:22:00.994Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://gridea-theme-tech.netlify.com"/>
-    <link rel="self" href="https://gridea-theme-tech.netlify.com/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://gridea-theme-tech.netlify.com/images/avatar.png</logo>
-    <icon>https://gridea-theme-tech.netlify.com/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <link rel="alternate" href="https://gridea-theme-line.netlify.com"/>
+    <link rel="self" href="https://gridea-theme-line.netlify.com/atom.xml"/>
+    <subtitle>🙋🏻‍♂️ Hi~，你好！这里是我的个人站点，我在这里记录关于产品、设计、前端相关的内容，欢迎关注</subtitle>
+    <logo>https://gridea-theme-line.netlify.com/images/avatar.png</logo>
+    <icon>https://gridea-theme-line.netlify.com/favicon.ico</icon>
+    <rights>All rights reserved 2019, Gridea Theme Line</rights>
     <entry>
         <title type="html"><![CDATA[中文排版小样]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/zhong-wen-pai-ban-xiao-yang</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/zhong-wen-pai-ban-xiao-yang">
+        <id>https://gridea-theme-line.netlify.com/post/zhong-wen-pai-ban-xiao-yang</id>
+        <link href="https://gridea-theme-line.netlify.com/post/zhong-wen-pai-ban-xiao-yang">
         </link>
         <updated>2019-09-20T06:44:22.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem Ipsum is simply dummy text]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/ce-shi</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/ce-shi">
+        <id>https://gridea-theme-line.netlify.com/post/ce-shi</id>
+        <link href="https://gridea-theme-line.netlify.com/post/ce-shi">
         </link>
         <updated>2019-05-06T11:58:25.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 测试文章]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/3</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/3">
+        <id>https://gridea-theme-line.netlify.com/post/3</id>
+        <link href="https://gridea-theme-line.netlify.com/post/3">
         </link>
         <updated>2019-04-18T10:32:46.000Z</updated>
         <summary type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
@@ -37,8 +37,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue.js 文档摘录]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/2</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/2">
+        <id>https://gridea-theme-line.netlify.com/post/2</id>
+        <link href="https://gridea-theme-line.netlify.com/post/2">
         </link>
         <updated>2019-04-18T10:11:37.000Z</updated>
         <summary type="html"><![CDATA[<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>
@@ -48,8 +48,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[惟世之繁华如故，斟酌岁月如初]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/1</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/1">
+        <id>https://gridea-theme-line.netlify.com/post/1</id>
+        <link href="https://gridea-theme-line.netlify.com/post/1">
         </link>
         <updated>2019-04-18T09:47:58.000Z</updated>
         <summary type="html"><![CDATA[<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>
@@ -59,29 +59,29 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[风中跌倒不为风]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/feng-zhong-die-dao-bu-wei-feng</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/feng-zhong-die-dao-bu-wei-feng">
+        <id>https://gridea-theme-line.netlify.com/post/feng-zhong-die-dao-bu-wei-feng</id>
+        <link href="https://gridea-theme-line.netlify.com/post/feng-zhong-die-dao-bu-wei-feng">
         </link>
         <updated>2019-04-04T17:00:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[乔布斯传]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/qiao-bu-si-chuan</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/qiao-bu-si-chuan">
+        <id>https://gridea-theme-line.netlify.com/post/qiao-bu-si-chuan</id>
+        <link href="https://gridea-theme-line.netlify.com/post/qiao-bu-si-chuan">
         </link>
         <updated>2019-04-04T16:44:28.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[乡愁]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/xiang-chou</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/xiang-chou">
+        <id>https://gridea-theme-line.netlify.com/post/xiang-chou</id>
+        <link href="https://gridea-theme-line.netlify.com/post/xiang-chou">
         </link>
         <updated>2019-04-04T16:16:59.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/hello-gridea</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/hello-gridea">
+        <id>https://gridea-theme-line.netlify.com/post/hello-gridea</id>
+        <link href="https://gridea-theme-line.netlify.com/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -93,8 +93,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[博客是什么]]></title>
-        <id>https://gridea-theme-tech.netlify.com/post/bo-ke-shi-shi-me</id>
-        <link href="https://gridea-theme-tech.netlify.com/post/bo-ke-shi-shi-me">
+        <id>https://gridea-theme-line.netlify.com/post/bo-ke-shi-shi-me</id>
+        <link href="https://gridea-theme-line.netlify.com/post/bo-ke-shi-shi-me">
         </link>
         <updated>2018-04-30T17:22:51.000Z</updated>
     </entry>
