@@ -2,102 +2,98 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea Theme Walker</title>
-<meta name="description" content="一个精心设计、优雅过渡动效的主题" />
-<link rel="shortcut icon" href="https://gridea-theme-walker.netlify.com/favicon.ico?v=1572518022211">
+<title>中文排版小样 | Gridea Theme Notes</title>
+<meta name="description" content="一个简约设计的博客主题" />
+<link rel="shortcut icon" href="http://mytools.coding.me/favicon.ico?v=1572519117366">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="http://mytools.coding.me/styles/main.css">
 
-<link rel="stylesheet" href="https://gridea-theme-walker.netlify.com/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea Theme Walker - Atom Feed" href="https://gridea-theme-walker.netlify.com/atom.xml">
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main px-4 flex flex-col lg:flex-row">
-      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
-  <div class="lg:sticky top-0">
-    <div class="sidebar-content">
-      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
-        <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
-        <a href="https://gridea-theme-walker.netlify.com">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://gridea-theme-walker.netlify.com/images/avatar.png?v=1572518022211" alt="">
-        </a>
-        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">Gridea Theme Walker</h1>
-      </div>
-      
-        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
-          <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
-          </p>
-          <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E6%9C%AC%E7%AF%87%E5%BC%95%E8%AF%AD">本篇引语</a></li>
-<li><a href="#%E5%8E%9F%E6%96%87">原文</a></li>
-<li><a href="#%E8%AF%91%E6%96%87">译文</a></li>
-<li><a href="#%E8%AF%84%E6%9E%90">评析</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="menu-container">
-  <i class="remixicon-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
-  <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://mytools.coding.me">
+  <img class="avatar" src="http://mytools.coding.me/images/avatar.png?v=1572519117366" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea Theme Notes
+  </h1>
+  <p class="site-description">
+    一个简约设计的博客主题
+  </p>
+  <div class="menu-container">
     
       
-        <a href="/" class="menu" style="animation-delay: 0s">
+        <a href="/" class="menu">
           首页
         </a>
       
     
       
-        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+        <a href="/archives" class="menu">
           归档
         </a>
       
     
       
-        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+        <a href="/tags" class="menu">
           标签
         </a>
       
     
       
-        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+        <a href="/post/about" class="menu">
           关于
         </a>
       
     
   </div>
-  <div class="site-footer">
-    <div class="py-4 text-gray-700">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></div>
-    <a class="rss" href="https://gridea-theme-walker.netlify.com/atom.xml" target="_blank">RSS</a>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
-<div class="mask" onclick="closeMenu()">
-</div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">中文排版小样</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          2019-09-20 / 3 min read
-        </div>
-        
-          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://images.unsplash.com/photo-1533922239335-e5ad4f9728f9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="">
-        
-        <div class="post-content yue">
-          <h2 id="本篇引语">本篇引语</h2>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              中文排版小样
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-09-20
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="http://mytools.coding.me/tag/ZZcvjwupE" class="post-tag">
+                  # Text
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://images.unsplash.com/photo-1533922239335-e5ad4f9728f9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="本篇引语">本篇引语</h2>
 <p>《学而》是《论语》第一篇的篇名。《论语》中各篇一般都是以第一章的前二三个字作为该篇的篇名。《学而》一篇包括16章，内容涉及诸多方面。其中重点是「吾日三省吾身」；「节用而爱人，使民以时」；「礼之用，和为贵」以及仁、孝、信等道德范畴。</p>
 <h2 id="原文">原文</h2>
 <p>子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</p>
@@ -108,133 +104,85 @@
 <p>此外，在对「人不知，而不愠」一句的解释中，也有人认为，「人不知」的后面没有宾语，人家不知道什么呢？当时因为孔子有说话的特定环境，他不需要说出知道什么，别人就可以理解了，却给后人留下一个谜。有人说，这一句是接上一句说的，从远方来的朋友向我求教，我告诉他，他还不懂，我却不怨恨。这样，「人不知」就是「人家不知道我所讲述的」了。这样的解释似乎有些牵强。</p>
 <p>总之，本章提出以学习为乐事，做到人不知而不愠，反映出孔子学而不厌、诲人不倦、注重修养、严格要求自己的主张。这些思想主张在《论语》书中多处可见，有助于对第一章内容的深入了解。</p>
 
-        </div>
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%9C%AC%E7%AF%87%E5%BC%95%E8%AF%AD">本篇引语</a></li>
+<li><a href="#%E5%8E%9F%E6%96%87">原文</a></li>
+<li><a href="#%E8%AF%91%E6%96%87">译文</a></li>
+<li><a href="#%E8%AF%84%E6%9E%90">评析</a></li>
+</ul>
+</li>
+</ul>
 
-        
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://gridea-theme-walker.netlify.com/tag/ZZcvjwupE">
-            <span class="flex-auto">Text</span>
-          </a>
-        
-
-
-        <div class="flex justify-between py-8">
-          
-
-          
-            <div class="next-post">
-              <a href="https://gridea-theme-walker.netlify.com/post/ce-shi">
-                <h3 class="post-title">
-                  Lorem Ipsum is simply dummy text
-                  <i class="remixicon-arrow-right-line"></i>
-                </h3>
-              </a>
+              </div>
             </div>
-          
+          </article>
         </div>
 
         
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://mytools.coding.me/post/ce-shi">
+              <h3 class="post-title">
+                Lorem Ipsum is simply dummy text
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="http://mytools.coding.me/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
 
       </div>
     </div>
-
-    <script src="https://gridea-theme-walker.netlify.com/media/prism.js"></script>  
-<script>
-
-Prism.highlightAll()
-
-let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-// This should probably be throttled.
-// Especially because it triggers during smooth scrolling.
-// https://lodash.com/docs/4.17.10#throttle
-// You could do like...
-// window.addEventListener("scroll", () => {
-//    _.throttle(doThatStuff, 100);
-// });
-// Only not doing it here to keep this Pen dependency-free.
-
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
-
-  mainNavLinks.forEach((link, index) => {
-    let section = document.getElementById(decodeURI(link.hash).substring(1));
-    let nextSection = null
-    if (mainNavLinks[index + 1]) {
-      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-    }
-    if (section.offsetTop <= fromTop) {
-      if (nextSection) {
-        if (nextSection.offsetTop > fromTop) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");    
-        }
-      } else {
-        link.classList.add("current");
-      }
-    } else {
-      link.classList.remove("current");
-    }
-  });
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
-
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target
-          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
-          lazyImage.classList.remove("lazy")
-          lazyImageObserver.unobserve(lazyImage)
-        }
-      });
-    });
-
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage)
-    })
-  } else {
-    // Possibly fall back to a more compatible method here
-  }
-});
-
-const menuContainer = document.querySelector('.menu-container')
-const menus = document.querySelectorAll('.menu-container .menu')
-const mask = document.querySelector('.mask')
-const contentWrapper = document.querySelector('.content-wrapper')
-const latestArticle = document.querySelector('.latest-article')
-const readMore = document.querySelector('.read-more')
-const indexPage = document.querySelector('.index-page')
-
-const isHome = location.pathname === '/'
-if (latestArticle) {
-  latestArticle.style.display = isHome ? 'block' : 'none'
-  readMore.style.display = isHome ? 'block' : 'none'
-  indexPage.style.display = isHome ? 'none' : 'block'
-}
-
-const openMenu = () => {
-  menuContainer.classList.add('open')
-  menus.forEach(menu => {
-    menu.classList.add('animated', 'fadeInLeft')
-  })
-  mask.classList.add('open')
-  contentWrapper.classList.add('is-second')
-}
-
-const closeMenu = () => {
-  menuContainer.classList.remove('open')
-  menus.forEach(menu => {
-    menu.classList.remove('animated', 'fadeInLeft')
-  })
-  mask.classList.remove('open')
-  contentWrapper.classList.remove('is-second')
-}
-</script>
-  
   </body>
 </html>

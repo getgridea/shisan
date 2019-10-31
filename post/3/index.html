@@ -2,111 +2,98 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea Theme Walker</title>
-<meta name="description" content="一个精心设计、优雅过渡动效的主题" />
-<link rel="shortcut icon" href="https://gridea-theme-walker.netlify.com/favicon.ico?v=1572518022211">
+<title>Markdown 测试文章 | Gridea Theme Notes</title>
+<meta name="description" content="一个简约设计的博客主题" />
+<link rel="shortcut icon" href="http://mytools.coding.me/favicon.ico?v=1572519117366">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="http://mytools.coding.me/styles/main.css">
 
-<link rel="stylesheet" href="https://gridea-theme-walker.netlify.com/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea Theme Walker - Atom Feed" href="https://gridea-theme-walker.netlify.com/atom.xml">
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main px-4 flex flex-col lg:flex-row">
-      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
-  <div class="lg:sticky top-0">
-    <div class="sidebar-content">
-      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
-        <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
-        <a href="https://gridea-theme-walker.netlify.com">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://gridea-theme-walker.netlify.com/images/avatar.png?v=1572518022211" alt="">
-        </a>
-        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">Gridea Theme Walker</h1>
-      </div>
-      
-        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
-          <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
-          </p>
-          <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E6%A0%87%E9%A2%98">标题</a>
-<ul>
-<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98%E6%98%BE%E7%A4%BA">三级标题显示</a></li>
-</ul>
-</li>
-<li><a href="#%E6%99%AE%E9%80%9A%E6%AE%B5%E8%90%BD">普通段落</a></li>
-<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
-<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
-<li><a href="#%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9">其他内容</a></li>
-<li><a href="#%E5%9D%97%E4%BB%A3%E7%A0%81">块代码</a></li>
-<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
-<li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li>
-<li><a href="#%E5%8A%A0%E5%BC%BA%E5%8A%9F%E8%83%BD">加强功能</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="menu-container">
-  <i class="remixicon-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
-  <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://mytools.coding.me">
+  <img class="avatar" src="http://mytools.coding.me/images/avatar.png?v=1572519117366" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea Theme Notes
+  </h1>
+  <p class="site-description">
+    一个简约设计的博客主题
+  </p>
+  <div class="menu-container">
     
       
-        <a href="/" class="menu" style="animation-delay: 0s">
+        <a href="/" class="menu">
           首页
         </a>
       
     
       
-        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+        <a href="/archives" class="menu">
           归档
         </a>
       
     
       
-        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+        <a href="/tags" class="menu">
           标签
         </a>
       
     
       
-        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+        <a href="/post/about" class="menu">
           关于
         </a>
       
     
   </div>
-  <div class="site-footer">
-    <div class="py-4 text-gray-700">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></div>
-    <a class="rss" href="https://gridea-theme-walker.netlify.com/atom.xml" target="_blank">RSS</a>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
-<div class="mask" onclick="closeMenu()">
-</div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">Markdown 测试文章</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          2019-04-18 / 3 min read
-        </div>
-        
-          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2100&amp;q=80" alt="">
-        
-        <div class="post-content yue">
-          <p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Markdown 测试文章
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-04-18
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="http://mytools.coding.me/tag/WibWptDz1" class="post-tag">
+                  # 生活随想
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2100&amp;q=80" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
 <!-- more -->
 <blockquote>
 <p>此篇仅为测试渲染效果，非教程</p>
@@ -184,10 +171,10 @@
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9094143"><label class="task-list-item-label" for="task-item-9094143"> 第一项任务</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-188520"><label class="task-list-item-label" for="task-item-188520"> 第二项任务</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8007849"><label class="task-list-item-label" for="task-item-8007849"> 第三项任务</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2542781"><label class="task-list-item-label" for="task-item-2542781"> 第四项任务</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6951824"><label class="task-list-item-label" for="task-item-6951824"> 第一项任务</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5545224"><label class="task-list-item-label" for="task-item-5545224"> 第二项任务</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9971172"><label class="task-list-item-label" for="task-item-9971172"> 第三项任务</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1634915"><label class="task-list-item-label" for="task-item-1634915"> 第四项任务</label></li>
 </ul>
 <h2 id="加强功能">加强功能</h2>
 <ul>
@@ -299,142 +286,94 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 </ol>
 </section>
 
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a>
+<ul>
+<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98%E6%98%BE%E7%A4%BA">三级标题显示</a></li>
+</ul>
+</li>
+<li><a href="#%E6%99%AE%E9%80%9A%E6%AE%B5%E8%90%BD">普通段落</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9">其他内容</a></li>
+<li><a href="#%E5%9D%97%E4%BB%A3%E7%A0%81">块代码</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li>
+<li><a href="#%E5%8A%A0%E5%BC%BA%E5%8A%9F%E8%83%BD">加强功能</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
         </div>
 
         
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://gridea-theme-walker.netlify.com/tag/WibWptDz1">
-            <span class="flex-auto">生活随想</span>
-          </a>
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://mytools.coding.me/post/2">
+              <h3 class="post-title">
+                Vue.js 文档摘录
+              </h3>
+            </a>
+          </div>
         
 
-
-        <div class="flex justify-between py-8">
-          
-            <div class="prev-post">
-              <a href="https://gridea-theme-walker.netlify.com/post/ce-shi">
-                <h3 class="post-title">
-                  <i class="remixicon-arrow-left-line"></i>
-                  Lorem Ipsum is simply dummy text
-                </h3>
-              </a>
-            </div>
-          
-
-          
-            <div class="next-post">
-              <a href="https://gridea-theme-walker.netlify.com/post/2">
-                <h3 class="post-title">
-                  Vue.js 文档摘录
-                  <i class="remixicon-arrow-right-line"></i>
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-
         
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="http://mytools.coding.me/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
 
       </div>
     </div>
-
-    <script src="https://gridea-theme-walker.netlify.com/media/prism.js"></script>  
-<script>
-
-Prism.highlightAll()
-
-let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-// This should probably be throttled.
-// Especially because it triggers during smooth scrolling.
-// https://lodash.com/docs/4.17.10#throttle
-// You could do like...
-// window.addEventListener("scroll", () => {
-//    _.throttle(doThatStuff, 100);
-// });
-// Only not doing it here to keep this Pen dependency-free.
-
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
-
-  mainNavLinks.forEach((link, index) => {
-    let section = document.getElementById(decodeURI(link.hash).substring(1));
-    let nextSection = null
-    if (mainNavLinks[index + 1]) {
-      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-    }
-    if (section.offsetTop <= fromTop) {
-      if (nextSection) {
-        if (nextSection.offsetTop > fromTop) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");    
-        }
-      } else {
-        link.classList.add("current");
-      }
-    } else {
-      link.classList.remove("current");
-    }
-  });
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
-
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target
-          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
-          lazyImage.classList.remove("lazy")
-          lazyImageObserver.unobserve(lazyImage)
-        }
-      });
-    });
-
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage)
-    })
-  } else {
-    // Possibly fall back to a more compatible method here
-  }
-});
-
-const menuContainer = document.querySelector('.menu-container')
-const menus = document.querySelectorAll('.menu-container .menu')
-const mask = document.querySelector('.mask')
-const contentWrapper = document.querySelector('.content-wrapper')
-const latestArticle = document.querySelector('.latest-article')
-const readMore = document.querySelector('.read-more')
-const indexPage = document.querySelector('.index-page')
-
-const isHome = location.pathname === '/'
-if (latestArticle) {
-  latestArticle.style.display = isHome ? 'block' : 'none'
-  readMore.style.display = isHome ? 'block' : 'none'
-  indexPage.style.display = isHome ? 'none' : 'block'
-}
-
-const openMenu = () => {
-  menuContainer.classList.add('open')
-  menus.forEach(menu => {
-    menu.classList.add('animated', 'fadeInLeft')
-  })
-  mask.classList.add('open')
-  contentWrapper.classList.add('is-second')
-}
-
-const closeMenu = () => {
-  menuContainer.classList.remove('open')
-  menus.forEach(menu => {
-    menu.classList.remove('animated', 'fadeInLeft')
-  })
-  mask.classList.remove('open')
-  contentWrapper.classList.remove('is-second')
-}
-</script>
-  
   </body>
 </html>

@@ -2,99 +2,98 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea Theme Walker</title>
-<meta name="description" content="一个精心设计、优雅过渡动效的主题" />
-<link rel="shortcut icon" href="https://gridea-theme-walker.netlify.com/favicon.ico?v=1572518022211">
+<title>乡愁 | Gridea Theme Notes</title>
+<meta name="description" content="一个简约设计的博客主题" />
+<link rel="shortcut icon" href="http://mytools.coding.me/favicon.ico?v=1572519117366">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="http://mytools.coding.me/styles/main.css">
 
-<link rel="stylesheet" href="https://gridea-theme-walker.netlify.com/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea Theme Walker - Atom Feed" href="https://gridea-theme-walker.netlify.com/atom.xml">
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main px-4 flex flex-col lg:flex-row">
-      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
-  <div class="lg:sticky top-0">
-    <div class="sidebar-content">
-      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
-        <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
-        <a href="https://gridea-theme-walker.netlify.com">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://gridea-theme-walker.netlify.com/images/avatar.png?v=1572518022211" alt="">
-        </a>
-        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">Gridea Theme Walker</h1>
-      </div>
-      
-        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
-          <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
-          </p>
-          <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%BD%9C%E5%93%81%E8%B5%8F%E6%9E%90">作品赏析</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="menu-container">
-  <i class="remixicon-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
-  <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://mytools.coding.me">
+  <img class="avatar" src="http://mytools.coding.me/images/avatar.png?v=1572519117366" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea Theme Notes
+  </h1>
+  <p class="site-description">
+    一个简约设计的博客主题
+  </p>
+  <div class="menu-container">
     
       
-        <a href="/" class="menu" style="animation-delay: 0s">
+        <a href="/" class="menu">
           首页
         </a>
       
     
       
-        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+        <a href="/archives" class="menu">
           归档
         </a>
       
     
       
-        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+        <a href="/tags" class="menu">
           标签
         </a>
       
     
       
-        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+        <a href="/post/about" class="menu">
           关于
         </a>
       
     
   </div>
-  <div class="site-footer">
-    <div class="py-4 text-gray-700">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></div>
-    <a class="rss" href="https://gridea-theme-walker.netlify.com/atom.xml" target="_blank">RSS</a>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
-<div class="mask" onclick="closeMenu()">
-</div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">乡愁</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          2019-04-05 / 4 min read
-        </div>
-        
-          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://images.unsplash.com/photo-1482838575019-7cbfe3cac7f3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2100&amp;q=80" alt="">
-        
-        <div class="post-content yue">
-          <blockquote>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              乡愁
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-04-05
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+                <a href="http://mytools.coding.me/tag/V6NMYW_ta" class="post-tag">
+                  # 文学集锦
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://images.unsplash.com/photo-1482838575019-7cbfe3cac7f3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2100&amp;q=80" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <blockquote>
 <p>小时候，<br>
 乡愁是一枚小小的邮票，<br>
 我在这头，<br>
@@ -120,142 +119,82 @@
 <p>诗歌在艺术上呈现出结构上的整饬美和韵律上的音乐美。在均匀、整齐的句式中追求一种活泼、生机勃勃的表现形式，在恰当的意象组合中完美地运用语词的音韵，使诗歌具有一种音乐般的节奏，回旋往复，一唱三叹。诗人用融合了中国传统审美特征的现代诗语，唱出了诗人心中对故乡、对祖国的深深眷恋之情。</p>
 <p>乡愁》有令人瞩目的形式美。一是结构上寓变化于统一，节与节，句与句，均衡对称。但整齐中又有参差，长句与短句相互变化错落，体现了自由诗的特点。二是同一位置上的词的重复和叠词的运用，在音乐上造成一种回环往复，一唱三叹的旋律，给全诗营造了一种低回怅惘的氛围。</p>
 
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%BD%9C%E5%93%81%E8%B5%8F%E6%9E%90">作品赏析</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
         </div>
 
         
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://gridea-theme-walker.netlify.com/tag/V6NMYW_ta">
-            <span class="flex-auto">文学集锦</span>
-          </a>
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://mytools.coding.me/post/hello-gridea">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
         
 
-
-        <div class="flex justify-between py-8">
-          
-            <div class="prev-post">
-              <a href="https://gridea-theme-walker.netlify.com/post/qiao-bu-si-chuan">
-                <h3 class="post-title">
-                  <i class="remixicon-arrow-left-line"></i>
-                  乔布斯传
-                </h3>
-              </a>
-            </div>
-          
-
-          
-            <div class="next-post">
-              <a href="https://gridea-theme-walker.netlify.com/post/hello-gridea">
-                <h3 class="post-title">
-                  Hello Gridea
-                  <i class="remixicon-arrow-right-line"></i>
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-
         
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="http://mytools.coding.me/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
 
       </div>
     </div>
-
-    <script src="https://gridea-theme-walker.netlify.com/media/prism.js"></script>  
-<script>
-
-Prism.highlightAll()
-
-let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-// This should probably be throttled.
-// Especially because it triggers during smooth scrolling.
-// https://lodash.com/docs/4.17.10#throttle
-// You could do like...
-// window.addEventListener("scroll", () => {
-//    _.throttle(doThatStuff, 100);
-// });
-// Only not doing it here to keep this Pen dependency-free.
-
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
-
-  mainNavLinks.forEach((link, index) => {
-    let section = document.getElementById(decodeURI(link.hash).substring(1));
-    let nextSection = null
-    if (mainNavLinks[index + 1]) {
-      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-    }
-    if (section.offsetTop <= fromTop) {
-      if (nextSection) {
-        if (nextSection.offsetTop > fromTop) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");    
-        }
-      } else {
-        link.classList.add("current");
-      }
-    } else {
-      link.classList.remove("current");
-    }
-  });
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
-
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target
-          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
-          lazyImage.classList.remove("lazy")
-          lazyImageObserver.unobserve(lazyImage)
-        }
-      });
-    });
-
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage)
-    })
-  } else {
-    // Possibly fall back to a more compatible method here
-  }
-});
-
-const menuContainer = document.querySelector('.menu-container')
-const menus = document.querySelectorAll('.menu-container .menu')
-const mask = document.querySelector('.mask')
-const contentWrapper = document.querySelector('.content-wrapper')
-const latestArticle = document.querySelector('.latest-article')
-const readMore = document.querySelector('.read-more')
-const indexPage = document.querySelector('.index-page')
-
-const isHome = location.pathname === '/'
-if (latestArticle) {
-  latestArticle.style.display = isHome ? 'block' : 'none'
-  readMore.style.display = isHome ? 'block' : 'none'
-  indexPage.style.display = isHome ? 'none' : 'block'
-}
-
-const openMenu = () => {
-  menuContainer.classList.add('open')
-  menus.forEach(menu => {
-    menu.classList.add('animated', 'fadeInLeft')
-  })
-  mask.classList.add('open')
-  contentWrapper.classList.add('is-second')
-}
-
-const closeMenu = () => {
-  menuContainer.classList.remove('open')
-  menus.forEach(menu => {
-    menu.classList.remove('animated', 'fadeInLeft')
-  })
-  mask.classList.remove('open')
-  contentWrapper.classList.remove('is-second')
-}
-</script>
-  
   </body>
 </html>
