@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mytools.coding.me</id>
-    <title>Gridea Theme Notes</title>
-    <updated>2019-10-31T10:52:00.527Z</updated>
+    <id>https://gridea-theme-shisan.netlify.com/</id>
+    <title>十 · 三</title>
+    <updated>2019-11-04T02:39:43.119Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mytools.coding.me"/>
-    <link rel="self" href="http://mytools.coding.me/atom.xml"/>
-    <subtitle>一个简约设计的博客主题</subtitle>
-    <logo>http://mytools.coding.me/images/avatar.png</logo>
-    <icon>http://mytools.coding.me/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea Theme Notes</rights>
+    <link rel="alternate" href="https://gridea-theme-shisan.netlify.com/"/>
+    <link rel="self" href="https://gridea-theme-shisan.netlify.com//atom.xml"/>
+    <subtitle>静坐长思己过，闲谈莫论人非</subtitle>
+    <logo>https://gridea-theme-shisan.netlify.com//images/avatar.png</logo>
+    <icon>https://gridea-theme-shisan.netlify.com//favicon.ico</icon>
+    <rights>All rights reserved 2019, 十 · 三</rights>
     <entry>
         <title type="html"><![CDATA[中文排版小样]]></title>
-        <id>http://mytools.coding.me/post/zhong-wen-pai-ban-xiao-yang</id>
-        <link href="http://mytools.coding.me/post/zhong-wen-pai-ban-xiao-yang">
+        <id>https://gridea-theme-shisan.netlify.com//post/zhong-wen-pai-ban-xiao-yang</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/zhong-wen-pai-ban-xiao-yang">
         </link>
         <updated>2019-09-20T06:44:22.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem Ipsum is simply dummy text]]></title>
-        <id>http://mytools.coding.me/post/ce-shi</id>
-        <link href="http://mytools.coding.me/post/ce-shi">
+        <id>https://gridea-theme-shisan.netlify.com//post/ce-shi</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/ce-shi">
         </link>
         <updated>2019-05-06T11:58:25.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 测试文章]]></title>
-        <id>http://mytools.coding.me/post/3</id>
-        <link href="http://mytools.coding.me/post/3">
+        <id>https://gridea-theme-shisan.netlify.com//post/3</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/3">
         </link>
         <updated>2019-04-18T10:32:46.000Z</updated>
         <summary type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
@@ -37,8 +37,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue.js 文档摘录]]></title>
-        <id>http://mytools.coding.me/post/2</id>
-        <link href="http://mytools.coding.me/post/2">
+        <id>https://gridea-theme-shisan.netlify.com//post/2</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/2">
         </link>
         <updated>2019-04-18T10:11:37.000Z</updated>
         <summary type="html"><![CDATA[<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>
@@ -48,8 +48,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[惟世之繁华如故，斟酌岁月如初]]></title>
-        <id>http://mytools.coding.me/post/1</id>
-        <link href="http://mytools.coding.me/post/1">
+        <id>https://gridea-theme-shisan.netlify.com//post/1</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/1">
         </link>
         <updated>2019-04-18T09:47:58.000Z</updated>
         <summary type="html"><![CDATA[<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>
@@ -59,29 +59,29 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[风中跌倒不为风]]></title>
-        <id>http://mytools.coding.me/post/feng-zhong-die-dao-bu-wei-feng</id>
-        <link href="http://mytools.coding.me/post/feng-zhong-die-dao-bu-wei-feng">
+        <id>https://gridea-theme-shisan.netlify.com//post/feng-zhong-die-dao-bu-wei-feng</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/feng-zhong-die-dao-bu-wei-feng">
         </link>
         <updated>2019-04-04T17:00:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[乔布斯传]]></title>
-        <id>http://mytools.coding.me/post/qiao-bu-si-chuan</id>
-        <link href="http://mytools.coding.me/post/qiao-bu-si-chuan">
+        <id>https://gridea-theme-shisan.netlify.com//post/qiao-bu-si-chuan</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/qiao-bu-si-chuan">
         </link>
         <updated>2019-04-04T16:44:28.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[乡愁]]></title>
-        <id>http://mytools.coding.me/post/xiang-chou</id>
-        <link href="http://mytools.coding.me/post/xiang-chou">
+        <id>https://gridea-theme-shisan.netlify.com//post/xiang-chou</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/xiang-chou">
         </link>
         <updated>2019-04-04T16:16:59.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://mytools.coding.me/post/hello-gridea</id>
-        <link href="http://mytools.coding.me/post/hello-gridea">
+        <id>https://gridea-theme-shisan.netlify.com//post/hello-gridea</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -93,8 +93,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[博客是什么]]></title>
-        <id>http://mytools.coding.me/post/bo-ke-shi-shi-me</id>
-        <link href="http://mytools.coding.me/post/bo-ke-shi-shi-me">
+        <id>https://gridea-theme-shisan.netlify.com//post/bo-ke-shi-shi-me</id>
+        <link href="https://gridea-theme-shisan.netlify.com//post/bo-ke-shi-shi-me">
         </link>
         <updated>2018-04-30T17:22:51.000Z</updated>
     </entry>
